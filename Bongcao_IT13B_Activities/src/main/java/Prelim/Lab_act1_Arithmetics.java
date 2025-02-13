@@ -1,27 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package Prelim;
 
-/**
- *
- * @author User
- */
-
 public class Lab_act1_Arithmetics {
-    
-    public static void main(String [] args){
-        
+
+    public static void main(String[] args) {
+
+        // Initialize the variables
         int x = 10;
         int y = 4;
         int z = 6;
-        
-        System.out.println("10" + "y" + "+" + "x" + "=" + (x * y + z));
-        System.out.println("(10" + "-" + "y)" + "%" + "z" + "=" + (x-y) %z);
-        System.out.println("(10" + "+" + "y)" + "+" +"z)" + "/" + "3" + "=" + (x+y+z) /3);
-        System.out.println("10" + "x" + "z" + "-" + "(y" + "x" + "y" + "=" + (x * z - (y * y)));
-        
+
+        // Expected Output: 10+4+6-46
+        System.out.println(x + "+" + y + "+" + z + "-46 = " + (x + y + z - 46));
+
+        // Expected Output: (10-4)%6-0
+        System.out.println("(" + x + "-" + y + ")% " + z + "-0 = " + ((x - y) % z - 0));
+
+        // Expected Output: (10+4+6)/3-6
+        System.out.println("(" + x + "+" + y + "+" + z + ")/3-6 = " + ((x + y + z) / 3 - 6));
+
+        // Expected Output: 106-(4*4)-44
+        System.out.println("106-(" + y + "*" + y + ")-44 = " + (106 - (y * y) - 44));
     }
 }
