@@ -1,4 +1,4 @@
-package com.mycompany.midternpalindromeassignment;
+package midterm;
 
 import java.util.Scanner;
 
